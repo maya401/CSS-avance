@@ -1,0 +1,154 @@
+header{
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul {
+    display: flex;
+    gap: 15px;
+}
+header nav ul li {
+ list-style: none;
+}
+header nav ul li a {
+   text-decoration: none;
+   color: #3D83DF;
+   }
+   .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #19D1B9;
+   }
+   .row {
+    display: flex;
+   gap: 20px;
+  justify-content: center;
+    
+   }
+   .col-2{
+    width: 30%;
+   }
+   .col-3{
+    width: 30%;
+   }
+   .parent{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+   }
+   .box1{
+    padding: 20px;
+    background-color:#19D1B9 ;
+    border-radius: 5%;
+    width: 300px;
+    height: 300px;
+   }
+   
+   
+   .box2{
+    padding: 20px;
+    background-color:#3D83DF;
+    border-radius: 5%;
+    width: 300px;
+    height: 300px;
+   }
+   .box3{
+    padding: 20px;
+    background-color:black ;
+    border-radius: 5%;
+    width: 300px;
+    height: 300px;
+   }
+   .boxP{
+    display: flex;
+    padding: 50px;
+    margin-left: 50px;
+    justify-content: center ;
+    align-content: center;
+    gap: 40px;
+
+   }
+.box5{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    row-gap: 20px;
+}
+.grid{
+    background-color: #DBF7F6;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 500px;
+}
+.T1{
+    display: grid;
+}
+.stats__item{
+    padding: 20px;
+    background-color:white;
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+   row-gap: 20ox;
+  
+}
+.double{
+   row-gap: 20px;
+   column-gap: 20px;
+    
+}
+
+.test{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   column-gap: 20px;
+ }
+ .partie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+ }
+.pere{
+    display: grid;
+    margin: 100px;
+    background-color: white;
+    grid-template-columns: repeat(3,313px);
+    justify-content: space-around;
+   flex-direction:column;
+}
+
+.enfant4{
+    display: flex;
+    gap: 60%;
+}
+.head{
+align-items: center;
+flex-direction: column;
+}
+.section__inner{
+    margin: 40px;
+    padding-left: 50px;
+}
+.btn{
+    background-color: #3D83DF;
+    width: 180px;
+    height: 40px;
+    margin: 10px;
+   
+}
+.office__desc{
+    display: flex;
+    background-color: white;
+
+
+}
+h4{
+    color:gray; 
+}
+
